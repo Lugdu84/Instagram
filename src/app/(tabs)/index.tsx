@@ -1,6 +1,10 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 
 export default function HomeScreen() {
-	return <Text>Home Screen</Text>;
+	return (
+		<View className=" bg-slate-600 flex-1 items-center justify-center">
+			<Text className="text-2xl text-blue-500 font-bold">Feed</Text>
+		</View>
+	);
 }
